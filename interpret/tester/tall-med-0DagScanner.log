@@ -1,0 +1,10 @@
+   1: # I Asp får tall ikke lov å starte med sifferet 0, men
+   2: # selve tallet 0 er selvfølgelig et unntak.
+   3: 
+   4: a = 0   # Dette er helt OK.
+   5: a = 04  # Men dette to tall: 0 og 4!
+   6:     	# Slikt er OK for skanneren,
+   7: 	# men parseren (del 2) vil gi
+   8: 	# en feilmelding.
+Scanner: DEDENT token
+Scanner: E-o-f token
